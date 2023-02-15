@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Count() {
-  const [count, setCount] = useState(4);
+  const [count, setCount] = useState(5);
 
   return (
     <button onClick={() => setCount((count) => count + 1)}>
